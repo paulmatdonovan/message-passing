@@ -48,24 +48,40 @@ form input {
     margin: 10px 0;
     outline: none;
     border: 1px solid #0F4C81;
-
 }
 
-.btn {
-    background-color: rgb(171, 69, 69);
+form input.button {
+    background-color: #0F4C81;
+    font-size: 1.2rem;
     color: #fff;
-    padding: 7px 10px;
+    padding: 12px 200px;
+    font-weight: 500;
+    border-radius: 8%;
     cursor: pointer;
 }
 
-input {
-    background-color: azure;
+form input.box {
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 10px;
 }
 
-.error {
+h5 {
+    background-color: #FFD4CD;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.feedback {
     display: none;
 }
 
 .message-content {
     color: rgb(67, 125, 176);
+}
+
+.show {
+    display: block;
 }
